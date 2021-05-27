@@ -1,0 +1,48 @@
+/* FOOTER */
+/* ***** */
+
+footer{
+
+    justify-content: end;
+    
+    
+}
+
+.links{
+
+    display: flex;
+    flex-direction: column;
+}
+.social{
+
+    flex-grow: 1;
+}
+
+.social__twitter{
+}
+
+
+.menu{
+
+    flex-grow: 6;
+}
+
+.copy{
+
+    text-align: center;
+}
+
+.texto{
+}
+
+@media only screen and (min-width: 1000px) { 
+    
+    .links {
+
+        position:unset;
+}
+    .menu{
+
+        position: none;
+        
+    }

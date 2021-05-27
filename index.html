@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+
+        <section class="contenedor">
+        
+        <!-- HEADER -->
+        <header>
+
+            <picture >
+            <!--Banner-->
+            <!--Smartphone-->
+            <source 
+
+            srcset="
+
+            ./img/smartphone/banner.jpg 1x,
+            ./img/smartphone/banner 2@x.jpg 2x,
+            ./img/smartphone/banner 3@x.jpg 3x,
+            "
+
+            media="(min-width: 320px) and (max-width: 475px) and (orientation: portrait)"
+
+            />
+
+            <!--Deskstop-->
+            <source 
+
+            srcset="./img/deskstop/banner.jpg 1x, 
+            ./img/deskstop/banner@2x.jpg 2x,
+            "
+
+            media="(min-width: 1100px)"
+
+            />
+
+            <img class="banner" src="" alt="Banner"/>
+
+        </picture>
+
+            <h1 class="logotipo">Logotipo</h1>
+
+        </header>
+        <!-- MAIN -->
+        <main>
+
+
+        </main>
+        <!-- FOOTER -->
+        <footer>
+<sections class="links">
+            <!--Social-->
+            <ul class="social">
+            <li class="social__titulo"><h3>Redes Sociales</h3></li>
+            <li class="social__twitter">Twitter</li>
+            <li class="social__picture">Picture</li>
+            <li class="social__linkedin">LinkediN</li>
+            </ul>
+
+            <!--Menu-->
+            <ul class="menu">
+                <li class="menu__titulo"><h3>Menu Principal</h3></li>
+                <li class="menu__servicios">Servicios</li>
+                <li class="menu__proyectos">Proyectos</li>
+                <li class="menu__contactar">Contactar</li>
+                </ul>
+
+            </sections>
+
+            <!--Tecxto-->
+            <p class="footer__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, vulputate suspendisse nec lacus ligula porta nec id turpis. Fringilla cras lacus quam.</p>
+
+            <h6 class="copy">Copyright-2021</h6>
+        </footer>
+
+    </section>
+    </body>
+</html>

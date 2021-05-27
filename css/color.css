@@ -1,0 +1,34 @@
+/* COLOR */
+/* **** */
+
+/* Variables */
+:root{
+    --colorfooter: #2385E0;
+    --colorhs: white;
+    --colortexto: white;
+    --colorcopyright: white;
+}
+
+footer{
+    background-color: var(--colorfooter);
+    
+}
+
+ h3{
+
+color: var(--colorhs);
+}
+
+ul{
+    color: var(--colortexto)
+}
+
+p{
+    color: var(--colortexto)
+}
+
+.copy{
+
+    color: var(--colorcopyright)
+}
+

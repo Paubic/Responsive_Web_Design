@@ -1,0 +1,30 @@
+/* TIPOGRAFÍA */
+/* ********* */
+
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+h1, h3, h6{
+    font-family: sans-serif;
+}
+
+
+.footer{
+
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+ul{
+
+    font-size: 18px;
+    font-family: sans-serif
+}
+
+/* Variables */
+:root{
+    
+}

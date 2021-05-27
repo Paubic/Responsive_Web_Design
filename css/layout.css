@@ -1,0 +1,17 @@
+/* LAYOUT */
+/* ***** */
+
+body {
+    
+    display:flex;
+    width: 100vw;
+    
+
+}
+
+.contenedor{
+
+    width: 1360px;
+    height: 2000px;
+
+}
