@@ -3,7 +3,8 @@
 
 footer{
 
-    justify-content: end;
+    display: flex;
+    flex-direction: column;
     
     
 }
@@ -16,9 +17,11 @@ footer{
 .social{
 
     flex-grow: 1;
+    
 }
 
 .social__twitter{
+
 }
 
 
@@ -30,19 +33,12 @@ footer{
 .copy{
 
     text-align: center;
+    padding: 20px;
 }
 
-.texto{
-}
+.footer__texto{
 
-@media only screen and (min-width: 1000px) { 
+    text-align: center
     
-    .links {
-
-        position:unset;
 }
-    .menu{
 
-        position: none;
-        
-    }
